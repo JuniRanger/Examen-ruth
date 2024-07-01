@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libros</title>
+    <link rel="stylesheet" href="../styles/cruds.css">
+</head>
+<body>
+    <h1>Libros</h1>
+    <form id="libroForm">
+        <input type="date" id="fecha_publicacion" placeholder="Fecha de Publicación" required>
+        <input type="number" id="precio" placeholder="Precio" required>
+        <input type="number" id="id_autor" placeholder="ID del Autor" required>
+        <button type="submit">Agregar Libro</button>
+    </form>
+
+    <table id="librosTable">
+        <thead>
+            <tr>
+                <th>Fecha de Publicación</th>
+                <th>Precio</th>
+                <th>ID del Autor</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí se insertarán los libros -->
+        </tbody>
+    </table>
+
+    <script src="libros.js"></script>
+</body>
+</html>

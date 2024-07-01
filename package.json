@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "examen",
+  "main": "App.js",
+  "scripts": {
+    "dev": "nodemon --exec node App.js"
+  },
+  "author": "Jonathan Melendez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mssql": "^11.0.0",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "tedious": "^18.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
